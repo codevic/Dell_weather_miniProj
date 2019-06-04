@@ -144,7 +144,7 @@ namespace Demo_WebAPI_Weather
         }
         
         //send the http get request and receive the response 
-        public static WeatherData HttpGetCurrentWeatherByLocation(string url, string mode)
+        public static WeatherData HttpGetCurrentWeatherByLocation(string url, string mode)//using the weather model in models folder
         {
             string result = null;
             WeatherData currentWeather;
