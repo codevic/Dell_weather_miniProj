@@ -86,12 +86,12 @@ namespace Demo_WebAPI_Weather
                 ConsoleKeyInfo keyinfo = Console.ReadKey();
                 switch (keyinfo.Key)
                 {
-                    //if key is n,next city displayed
+                    //if key is Enter,next city displayed
                     case ConsoleKey.Enter:
                         currentId = (currentId + 1) % 4;
                         DisplayWeatherByCity(currentId);
                         break;
-                    //if key is q,exit program
+                    //if key is Escape,exit program
                     case ConsoleKey.Escape:
                         quit = true;
                         break;
@@ -153,7 +153,7 @@ namespace Demo_WebAPI_Weather
             {
                 result = syncClient.DownloadString(url);    //send request to API and receive the result resource with string format
             }
-            // Check if response should be xml or json
+            
             if (mode == "json") //json 
             {
                 // Return json
@@ -161,6 +161,7 @@ namespace Demo_WebAPI_Weather
             }  else
             {
                 currentWeather = null;
+                Console.WriteLine("Error occurred while getting the response" + result);
             }
 
             return currentWeather;
