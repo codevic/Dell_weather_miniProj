@@ -11,7 +11,7 @@ namespace Demo_WebAPI_Weather
     //
     public class WeatherData
     {
-       
+        public Coord Coord { get; set; }
         public List<Weather> Weather { get; set; }
         public string Base { get; set; }
         public Main Main { get; set; }
@@ -32,6 +32,12 @@ namespace Demo_WebAPI_Weather
         public string Main { get; set; }
         public string Description { get; set; }
         public string Icon { get; set; }
+    }
+
+    public class Coord
+    {
+        public double Lon { get; set; }
+        public double Lat { get; set; }
     }
 
     public class Main

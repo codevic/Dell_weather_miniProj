@@ -18,3 +18,13 @@ C:\Users\utava\Downloads\Compressed\Weather API\Demo_WebAPI_Weather_Sync\obj\Deb
 C:\Users\utava\Downloads\Compressed\Weather API\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather_Sync.csproj.CopyComplete
 C:\Users\utava\Downloads\Compressed\Weather API\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather.exe
 C:\Users\utava\Downloads\Compressed\Weather API\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather.pdb
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\bin\Debug\Demo_WebAPI_Weather.exe.config
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\bin\Debug\Demo_WebAPI_Weather.exe
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\bin\Debug\Demo_WebAPI_Weather.pdb
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\bin\Debug\Newtonsoft.Json.dll
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\bin\Debug\Newtonsoft.Json.xml
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather_Sync.csprojAssemblyReference.cache
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather_Sync.csproj.CoreCompileInputs.cache
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather_Sync.csproj.CopyComplete
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather.exe
+C:\Users\utava\OneDrive\CODE\Dell_Weather_Proj\Demo_WebAPI_Weather_Sync\obj\Debug\Demo_WebAPI_Weather.pdb
