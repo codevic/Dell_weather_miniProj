@@ -1,16 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Web;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
-using System.Net.Http;
-using System.Xml.Serialization;
-using System.Xml.Linq;
-using System.Xml;
 using System.Threading;
 namespace Demo_WebAPI_Weather
 {
