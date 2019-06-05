@@ -13,11 +13,11 @@ namespace Weather
     class WeatherFetcher
     {
         //get city weather from api
-        public string GetCityWeather(string cityName)
+        public string GetCityWeather(string cityName,string apikey)
         {
             HttpClient client = new HttpClient();
-            var apiKey = "appid=104b41abe2122aae8f9e4b8bfd514f62";
-            client.BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?q={cityName}&"+apiKey);
+            //var apiKey = "appid=104b41abe2122aae8f9e4b8bfd514f62";
+            client.BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?q={cityName}&"+apikey);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 

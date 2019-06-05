@@ -16,6 +16,8 @@ namespace Weather
         //cache memory for weather
         static private string[] cache;
 
+        static private string apiKey = "appid=104b41abe2122aae8f9e4b8bfd514f62";
+
         //cache function for weather
         static protected void CacheWeather(Object stateInfo)
         {
@@ -23,11 +25,12 @@ namespace Weather
             //create weather fetcher instance
             WeatherFetcher weather = new WeatherFetcher();
             int i;
+            
             //for getting all cities weather from web api
             for (i = 0; i < cities.Length; i++)
             {
                 //get weather info from weather web api
-                cache[i] = weather.GetCityWeather(cities[i]);
+                cache[i] = weather.GetCityWeather(cities[i],apiKey);
             }
         }
 
