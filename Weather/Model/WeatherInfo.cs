@@ -1,6 +1,6 @@
 ﻿namespace Weather
 {
-    //data structure for weather info
+    //data model for weather info
     class WeatherInfo
     {
         public Weather[] weather { get; set; }

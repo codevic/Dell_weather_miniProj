@@ -16,7 +16,8 @@ namespace Weather
         public string GetCityWeather(string cityName)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?q={cityName}&appid=104b41abe2122aae8f9e4b8bfd514f62");
+            var apiKey = "appid=104b41abe2122aae8f9e4b8bfd514f62";
+            client.BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?q={cityName}&"+apiKey);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
@@ -33,7 +34,7 @@ namespace Weather
             //send a GET request to the specified URL as an async operation
             HttpResponseMessage response = await client.GetAsync("");
 
-            //response.EnsureSuccessStatusCode();
+            
 
             //if HTTP response is successful
             if (response.IsSuccessStatusCode)

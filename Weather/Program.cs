@@ -52,8 +52,9 @@ namespace Weather
             bool quit = false;  //if quit is true,main progarm is killed and thread is terminated
 
             //set time interval with 20s
+            int refreshTime = 20000;
             TimerCallback interval = new TimerCallback(CacheWeather);
-            Timer timer = new Timer(interval, null, 0, 20000);
+            Timer timer = new Timer(interval, null, 0, refreshTime);
 
             
             int i = 0;
@@ -98,7 +99,7 @@ namespace Weather
             return (degreesKelvin - 273.15) * 1.8 + 32;
         }
 
-         public static void DeserializeAndDisplay(string inffo)
+         protected static void DeserializeAndDisplay(string inffo)
         {
             //get weather info from cache
             //weather info instance
