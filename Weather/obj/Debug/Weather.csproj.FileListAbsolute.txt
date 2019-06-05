@@ -1,0 +1,18 @@
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\bin\Debug\Weather.exe.config
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\bin\Debug\Weather.exe
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\bin\Debug\Weather.pdb
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\obj\Debug\Weather.exe
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\obj\Debug\Weather.pdb
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\bin\Debug\Newtonsoft.Json.dll
+E:\Task\task\upwork\2019\2019-06-04\Weather C# Console App\provide\Weather\Weather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\utava\Downloads\Compressed\Weather\Weather\bin\Debug\Weather.exe.config
+C:\Users\utava\Downloads\Compressed\Weather\Weather\bin\Debug\Weather.exe
+C:\Users\utava\Downloads\Compressed\Weather\Weather\bin\Debug\Weather.pdb
+C:\Users\utava\Downloads\Compressed\Weather\Weather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\utava\Downloads\Compressed\Weather\Weather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\utava\Downloads\Compressed\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\utava\Downloads\Compressed\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+C:\Users\utava\Downloads\Compressed\Weather\Weather\obj\Debug\Weather.exe
+C:\Users\utava\Downloads\Compressed\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\utava\Downloads\Compressed\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
